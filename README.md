@@ -1,5 +1,5 @@
 # Today I Learned
 --
-###[Angular2](../../tree/master/angular2)
-###[Javascript](../../tree/master/Javascript)
-###[NodeJs](../../tree/master/NodeJS)
+###[Angular2](https://github.com/yunha0221/TIL/tree/master/Angular2)
+###[Javascript](https://github.com/yunha0221/TIL/tree/master/Javascript)
+###[NodeJs](https://github.com/yunha0221/TIL/tree/master/NodeJS)
