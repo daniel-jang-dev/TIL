@@ -1,25 +1,22 @@
 ##Build a Angular 2 website from scratch
 
-* create a new folder and move to the folder
-* npm init
+###Step 1. Set up the Development Environment
+* install Node.js® and npm if they are not already on your machine
+* install the Angular-CLI globally
 
->edit [package.json](https://github.com/angular/quickstart/blob/master/package.json)
+		npm install -g @angular/cli
 
->create [tsconfig.json](https://github.com/angular/quickstart/blob/master/src/tsconfig.json)
+###Step 2. Create a new project
 
->create [typings.json](http://www.concretepage.com/angular-2/getting-started-with-angular-2-using-typescript-step-by-step-example)
+		ng new ny-app
 
->create [systemjs.config.js](http://www.concretepage.com/angular-2/getting-started-with-angular-2-using-typescript-step-by-step-example)
+###Step 3: Serve the application
 
-* npm install
-* create app folder and create files
+		cd my-app
+		ng serve
+		
+Open a browser on http://localhost:4200/; the app greets you with a message:
 
-> app/app.component.ts
+###Step 4: Edit your first Angular component
 
-> app/app.module.ts
-
-> app/main.ts
-
-> index.html
-
-* npm start
+[LINK](https://angular.io/docs/ts/latest/cli-quickstart.html)
