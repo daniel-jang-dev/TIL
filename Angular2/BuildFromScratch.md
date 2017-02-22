@@ -8,7 +8,7 @@
 
 ###Step 2. Create a new project
 
-		ng new ny-app
+		ng new my-app
 
 ###Step 3: Serve the application
 
