@@ -6,3 +6,7 @@
     npm init
     npm install module_name --save
 
+## Updating npm
+
+    npm install npm@latest -g
+
