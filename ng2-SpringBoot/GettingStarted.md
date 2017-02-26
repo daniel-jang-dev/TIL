@@ -115,7 +115,7 @@
 ##Step 3: Add the Angular2 application to the project
 
     npm config set loglevel error
-    npm install -g angular-cli
+    npm install -g @angular/cli@latest
     cd frontend\src\main
     ng new --skip-git --directory frontend ng2boot
     
