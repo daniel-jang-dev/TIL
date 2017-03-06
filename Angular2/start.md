@@ -1,5 +1,5 @@
 ## Server-side app
-### directory: api/aip/
+### directory: api/api/
 node server.js
 -> localost:9001
 
