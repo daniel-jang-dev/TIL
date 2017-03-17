@@ -1,4 +1,4 @@
-# 지옥에서 온 Git
+# 지옥에서 온 Git 01
 > [(Git from the HELL)](https://www.youtube.com/playlist?list=PLuHgQVnccGMA8iwZwrGyNXCGy2LAAsTXk)
 
 ### 1. 수업 소개
