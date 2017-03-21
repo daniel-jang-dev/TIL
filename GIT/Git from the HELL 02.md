@@ -19,7 +19,9 @@
     $git checkout exp // exp branch 로 이동
     * exp
       master
-
+      
+    $git checkout -b exp // exp branch 생성 후 이동
+    
 > 모든 브랜치 비교해보기
 
     $git log --branches --decorate  --graph --oneline // 모든 브랜치 트리를 간략하게 보여줌
