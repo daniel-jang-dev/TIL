@@ -14,4 +14,4 @@
 
 ### [ng2-SpringBoot](https://github.com/yunha0221/TIL/tree/master/ng2-SpringBoot)
 
-### [Git from the HELL](https://github.com/yunha0221/TIL/tree/master/GIT)
+### [Git from the HELL](https://github.com/yunha0221/TIL/tree/master/Git)
