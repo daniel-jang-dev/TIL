@@ -20,6 +20,9 @@
     subList(int fromIndex, int toIndex)
     toArray()
 
+### How to get the sum of all the elements
+    Arrays.stream(array).sum();
+    
 ### How to sort an array
     int array[] = { 2, 5, -2, 6, -3, 8, 0, -7, -9, 4 };
     Arrays.sort(array);
@@ -126,7 +129,7 @@
     objArray.contains(Object o)
     objArray.contains(objArray2)
 
-## How to check if two arrays are equal or not?
+### How to check if two arrays are equal or not?
     Arrays.equals(array1, array2)
     arr1 == arr2
 
