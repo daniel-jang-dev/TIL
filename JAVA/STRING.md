@@ -1,8 +1,17 @@
 ## JAVA / String
 
+### How to change char to String?
+    Character.toString(c)
+    String.valueOf(c)
+
 ### How to compare two strings ?
-- string1.comareTo(String string2), string1.compareToIgnoreCase((String string2), string1.compareTo(Object object) : returns the ascii difference of first odd characters of compared strings.
-- string1.equals(String string2) : true / false
+    string1.comareTo(String string2)
+    string1.compareToIgnoreCase((String string2)
+    string1.compareTo(Object object) 
+    : returns the ascii difference of first odd characters of compared strings.
+    
+    string1.equals(String string2) 
+    : true / false
 
 ### How to remove a particular character from a string ?
     public static String removeCharAt(String s, int pos) {
