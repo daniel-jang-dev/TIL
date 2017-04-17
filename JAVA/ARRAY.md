@@ -107,8 +107,8 @@
     String[] arr = list.toArray(new String[list.size()]);
     
 ### How to fill (initialize at once) an array ?
-    Array.fill(arrayname,value)
-    Array.fill(arrayname, starting index, ending index, value)
+    Arrays.fill(arrayname,value)
+    Arrays.fill(arrayname, starting index, ending index, value)
     
 ### How to extend an array after initialisation?
     System.arraycopy(Object source, int sourcePosition, Object destination, int destinationPosition, int length)
