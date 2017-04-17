@@ -27,7 +27,8 @@
     String reverse = Stream.of(list).map(c -> new String(c)).collect(Collectors.joining());
     
 ### How to search a word inside a string ?
-    string.indexOf(String word) : returns a position index of a word within the string if found. Otherwise it returns -1.
+    string.indexOf(String word) 
+    : returns a position index of a word within the string if found. Otherwise it returns -1.
     
 ### How to convert a string totally into upper case
     string.toUpperCase()
