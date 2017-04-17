@@ -1,8 +1,30 @@
 ## JAVA / String
 
+### Methods
+    char charAt(int index)
+    String substring(int beginIndex)
+    String substring(int beginIndex, int endIndex)
+    char[] toCharArray()
+    boolean startsWith(String prefix)
+    boolean endsWith(String suffix)
+    int indexOf(int c)
+    int indexOf(int c, int fromIndex)
+    int indexOf(String str)
+    int indexOf(String str, int fromIndex)
+    int lastIndexOf(int c)
+    String replace(char oldChar, char newChar)
+    String replaceAll(String regex, String replacement)
+    String[] split(String regex)
+    String toLowerCase()
+    String toUpperCase()
+    String trim()
+
+### How to change char array to String
+    new String(charArray)
+
 ### How to change char to String?
-    Character.toString(c)
-    String.valueOf(c)
+    Character.toString(char c)
+    String.valueOf(char c)
 
 ### How to compare two strings ?
     string1.comareTo(String string2)
