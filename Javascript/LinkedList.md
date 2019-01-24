@@ -122,27 +122,68 @@ class LinkedList<E> {
   }
   
   get(index: number): E {
-  
+    if(index < 0 || index >= this.size) return null;
+    var current = this.head;
+    for(var i = 0; i < index; i++) {
+      current = current.next;
+    }
+    return current.element;
   }
   
   indexOf(e: E): number {
-  
+    var index = 0;
+    var current = this.head;
+    while(current) {
+      if(current.element === e) {
+        return index;
+      } else {
+        current = current.next;
+        index++;
+      }
+    }
+    return -1;
   }
   
   lastIndexOf(e: E): number {
-  
+    var index = 0;
+    var lastIndex = -1;
+    var current = this.head;
+    while(current) {
+      if(current.element === e) {
+        lastIndex = index;
+      } else {
+        current = current.next;
+      }
+      index++;
+    }
+    return lastIndex;
   }
   
   contains(e: E): boolean {
-  
+    if (this.size === 0) return false;
+    var current = this.head;
+    while(current) {
+      if (current.element === e) {
+        return true;
+      } else {
+        current = current.next;
+      }
+    }
+    return false;
   }
   
   set(index: number, e: E): E {
-  
+    if(index < 0 || index >= this.size) return null;
+    var current = this.head;
+    for(var i = 0; i < index; i++) {
+      current = current.next;
+    }
+    current.element = e;
+    return current;
   }
   
   isEmpty(): boolean {
-  
+    return this.size === 0;
   }
   
   size(): number {
