@@ -15,7 +15,7 @@ $$ h_t = {\sigma} ({W_{xh}}^T x_t + {W_{hh}}^T h_{t-1} + b_h)$$
 - vector = [0, 0, 0, 0, 0, ...., 0]
 - Map each word to an index (where it becomes 1)
   - "a" → [1,0,0,...,0] (index 1)
-  - "aa" → [0, 1, 0, ...,O] (index 2)
+  - "aa" → [0, 1, 0, ...,0] (index 2)
   - ...
   - "activation" → [0, 0, 0, ..., 1, ..., 0] (index 100)
   - ...
