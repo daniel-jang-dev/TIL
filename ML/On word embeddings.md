@@ -25,8 +25,11 @@
   - Self-Normalisation
   - Infrequent Normalisation
   - Other Approaches
-- Which Approach to Choose?
+
 ![image](https://user-images.githubusercontent.com/15355357/176792878-3092992e-b3df-4db2-8eee-8453511e8de0.png)
+
+- Which Approach to Choose?
+
 
 ### Part 3: The secret ingredients of word2vec
 - GloVe
