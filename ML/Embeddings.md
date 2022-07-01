@@ -68,7 +68,7 @@ $$ h_t = {\sigma} ({W_{xh}}^T x_t + {W_{hh}}^T h_{t-1} + b_h)$$
 ### Tensorflow Embedding
 - This is exactly what the Embedding layer does!
 - STEP #1: Convert words into integers
-  - ["1", "Like", "Cats"] → [50, 25, 3] 
+  - ["I", "Like", "Cats"] → [50, 25, 3] 
 - STEP #2: Use integers to index the word embedding matrix to get word vectors for each word
   - [50, 25, 3] → [[0.3, -0.5], [1.2, -0.7], [-2.1, 0.9]] 
   - T-length array → T x D matrix
